@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: laraiptv
-        image: 10.9.38.104:5000\lar-ipt_v2
+        image: 10.9.38.104:5000/lara-iptv
         ports:
         - containerPort: 80
