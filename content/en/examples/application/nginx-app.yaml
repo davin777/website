@@ -3,13 +3,13 @@ kind: Service
 metadata:
   name: my-laraiptv-svc
   labels:
-    app: nginx
+    app: laraiptv
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: nginx
+    app: laraiptv
 ---
 apiVersion: apps/v1
 kind: Deployment
